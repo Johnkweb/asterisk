@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Asterisk Starts " 
+
+#mkdir /target
+
+#cp /usr/local/deployments/*.ini /target/tomcat.$PORT/webapps
+asterisk -rvvvv
+
